@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .app {
   display: flex;
   align-items: center;
@@ -10,7 +15,9 @@
     url('https://cdn.pixabay.com/photo/2020/04/21/11/31/architecture-5072728_960_720.jpg');
   background-position: center;
   background-size: cover;
-  padding: 50px 0px;
+  padding: 50px 10px;
+  overflow: hidden;
+  min-height: 100vh;
 }
 
 h1 {
@@ -20,7 +27,9 @@ h1 {
 
 form {
   background-color: white;
-  padding: 60px 60px;
+  padding: 30px 30px;
+  max-width: 100%;
+  width: 400px;
   border-radius: 10px;
 }
 
